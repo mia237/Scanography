@@ -30,7 +30,7 @@ function myFunctionphoto() {
   }
 
   function myFunction2() {
-    document.getElementById("demo2").innerHTML = "It can be done using any standard digital scanner that is connected to a device of your choosing such as a laptop, tablet, phone etc.";
+    document.getElementById("demo2").innerHTML = "Begin by simply picking an object and placing it on the scanner. Start the scan to capture a photo of your object.";
   }
 
   function myFunction3() {
