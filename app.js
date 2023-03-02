@@ -5,12 +5,10 @@ function myFunctionphoto() {
   }
 
   function myFunctiontwo() {
-    document.getElementById("demo").innerHTML = "Scanner";
+    document.getElementById("demo").innerHTML = "Scanner and Photography";
   }
 
-  function myFunctionthree() {
-    document.getElementById("demothree").innerHTML = "Photography";
-  }
+  
 
   function myFunctiony() {
     document.getElementById("demoy").innerHTML += "Photography ";
@@ -46,7 +44,7 @@ function myFunctionphoto() {
   }
 
   function myFunction6() {
-    document.getElementById("demo6").innerHTML = "Throughout this page are various scanned flowers. This was done by placing the flowers and letting the scan run without moveing the flowers. ";
+    document.getElementById("demo6").innerHTML = "Throughout this page are various scanned flowers. This was done by placing the flowers and letting the scan run without moving the flowers. ";
   }
 
   function myFunctionf() {

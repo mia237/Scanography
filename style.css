@@ -55,7 +55,7 @@ body{
     margin-top: 200px;
     font-size: 120px;
     font-weight: 300;
-    margin-left: 35px;
+    margin-left: 5%;
 }
 
 .Abstraction-heading{
@@ -64,7 +64,7 @@ body{
     margin-top: 200px;
     font-size: 120px;
     font-weight: 300;
-    margin-left: 35px;
+    margin-left: 5%;
     z-index: 1;
 }
 
@@ -72,7 +72,7 @@ body{
 
 .Scanography-repeat{
     color: white;
-    opacity: 100%;
+    opacity: 1;
     margin-top: -140px;
     font-size: 15px;
     font-weight: 300;
@@ -80,7 +80,9 @@ body{
     margin-left: 30px;
     position: absolute;
 }
-      
+      .divone:hover{
+        opacity: 1;
+      }
 
 .Photography-repeat{
     color: white;
@@ -96,9 +98,11 @@ body{
     color: white;
     opacity: 100%;
     margin-top: -10px;
-    margin-left: 840px;
+    margin-left: 55%;
     font-size: 15px;
     font-weight: 300;
+    position: absolute;
+    z-index: 1;
 }
 
 .scanner-header-image{
@@ -108,7 +112,7 @@ body{
     margin-top: -610px;
     max-width: 1000px;
     position: static;
-    z-index: -10;
+    z-index: 0;
 }
  
   .divone {
@@ -123,6 +127,12 @@ body{
     cursor: pointer;
   }
   
+.jj{
+  opacity: 0.5;
+}
+  .jj:hover{
+    opacity: 1;
+  }
   @keyframes divon {
     from {top: -70px; opacity: 1;}
     to {top: 400px; opacity: 0;}
@@ -216,7 +226,7 @@ body{
  }
 
  .jbutton{
-  background-color: #ffffffcd;
+  background-color:#ffffff6a;
   color: #000000;
   position: absolute;
   margin-left: 30px;
@@ -224,8 +234,15 @@ body{
   cursor: pointer;
   font-size: 15px;
   font-weight: 300;
+  
  }
 
+.jbutton:hover{
+padding: 10px;
+background-color:#ffffff;
+font-size: 20px;
+
+}
 
   .imagetwo{
     scale: 185%;
@@ -276,8 +293,8 @@ body{
     font-size: 15px;
     position: absolute;
     font-weight: 300;
-    margin-left: 770px;
-    margin-right: 230px;
+    margin-left: 54%;
+    margin-right: 240px;
     margin-top: 0px;
   }
 
@@ -286,37 +303,50 @@ body{
     font-size: 15px;
     position: absolute;
     font-weight: 300;
-    margin-left: 140px;
-    margin-right: 900px;
+    margin-left: 15%;
+    margin-right: 800px;
     margin-top: 0px;
   }
 
   .scanhead{
     color: white;
     background-color: #00000000;
-    font-size: 120px;
+    font-size: 100px;
     position: absolute;
     font-weight: 300;
-    margin-left: 700px;
-    margin-right: 250px;
+    margin-left: 49%;
+    margin-right: 30%;
     margin-top: -50px;
     opacity: 0.5;
     cursor: pointer;
+    border: #00000000;
   }
+.scanhead:hover{
+  color: #f1f91e;
+  opacity: 1;
+  font-size: 120px;
 
+}
   .scanheadone{
     color: white;
-    font-size: 120px;
+    font-size: 100px;
     position: absolute;
     font-weight: 300;
-    margin-left: 70px;
-    margin-right: 250px;
-    margin-top: -50px;
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-top: -3%;
     opacity: 0.5;
     cursor: pointer;
     background-color: #00000000;
-  }
+    border: #00000000;
 
+  }
+  .scanheadone:hover{
+    color: #f1f91e;
+    opacity: 1;
+    font-size: 120px;
+
+  }
   .scanheadtwo{
     color: white;
     font-size: 120px;
@@ -369,14 +399,17 @@ body{
     margin-top: -275px;
     z-index: 1;
     cursor: pointer;
+    opacity: 0.5;
   }
-
+.paragraphfourf:hover{
+  opacity: 1;
+}
   .scanography-imagetwo{
     opacity: 1;
     scale: 45%;
     position: absolute;
     margin-top: -850px;
-    margin-left: 100px;
+    margin-left: 5%;
     z-index: 1;
   }
 
@@ -421,7 +454,7 @@ body{
     font-size: 15px;
     position: absolute;
     font-weight: 300;
-    margin-left: 650px;
+    margin-left: 44%;
     margin-right: 340px;
     margin-top: 0px;
   }
@@ -512,22 +545,25 @@ body{
 
 .paragraphone{
   opacity: 1;
+  font-size: 12;
   
 }
 
 .buttonone{
   color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   border: #fff;
   border-width: 2px;
   padding: 2px 2px;
   cursor: pointer;
-  opacity: 0.5;
   z-index: 1;
+  font-size: 15px;
 }
 
 .buttonone:hover{
-  opacity: 1;
+  
+  color: #f1f91e;
+  font-size: 20px;
 }
 
 .image{
@@ -538,7 +574,7 @@ body{
 
 .test{
   color: white;
-  opacity: 100%;
+  opacity: 0.5;
   margin-left: 740px;
   font-size: 15px;
   font-weight: 300;
@@ -548,16 +584,27 @@ body{
   cursor: pointer;
 }
 
+.test:hover{
+  opacity: 1;
+}
 .gg{
   color:#fff;
   background-color: #00000000;
   cursor: pointer;
-  font-size: 120px;
+  font-size: 100px;
     font-weight: 300;
     margin-left: 5px;
     margin-right: 250px;
     margin-top: -50px;
-    opacity: 1;
+    opacity: 0.5;
+    padding: 0px;
+}
+
+.gg:hover{
+  padding: 30px;
+  opacity: 1;
+  font-size: 120px;
+
 }
 
 .imgimg{
@@ -580,11 +627,20 @@ body{
   text-decoration: none;
  
 }
+.ink:hover{
+color: #f1f91e;
+
+}
+
 
 .workslink{
   color: #fff;
   text-decoration: none;
  cursor: pointer;
+}
+
+.workslink:hover{
+  color: #f1f91e;
 }
 .abslist{
   color: #fff;
@@ -597,8 +653,13 @@ body{
 
 
 .movements{
-  font-size: 15px;
+  font-size: 50px;
   font-weight: 300;
+  opacity: 0.5;
+}
+
+.movements:hover{
+  opacity: 1;
 }
 
 
@@ -606,74 +667,74 @@ body{
   position: absolute;
   scale: 30%;
   margin-top: -800px;
-  margin-left: 90px;
+  margin-left: 10%;
 }
 
 .a2{
   width: 30%;
   position: absolute;
   margin-top: -220px;
-  margin-left: 850px;
+  margin-left: 70%;
 }
 
 .a3{
   position: absolute;
   scale: 30%;
   margin-top: -900px;
-  margin-left: 90px;
+  margin-left: 6%;
 }
 
 .a4{
   width: 30%;
   position: absolute;
   margin-top: -300px;
-  margin-left: 850px;
+  margin-left: 67%;
 }
 
 .a5{
   position: absolute;
   scale: 30%;
   margin-top: -900px;
-  margin-left: 10px;
+  margin-left: 2%;
 }
 
 .a6{
   width: 30%;
   position: absolute;
   margin-top: -300px;
-  margin-left: 850px;
+  margin-left: 65%;
 }
 
 .a7{
   position: absolute;
   scale: 30%;
   margin-top: -900px;
-  margin-left: 10px;
+  margin-left: 5%;
 }
 
 .a8{
   width: 30%;
   position: absolute;
   margin-top: -300px;
-  margin-left: 850px;
+  margin-left: 65%;
 }
 
 .a9{
   position: absolute;
   scale: 30%;
   margin-top: -900px;
-  margin-left: 10px;
+  margin-left: 5%;
 }
 
 .a10{
   width: 30%;
   position: absolute;
   margin-top: -300px;
-  margin-left: 850px;
+  margin-left: 65%;
 }
 
 .head{
-  margin-left: 150px;
+  margin-left: 11%;
   z-index: 1;
   position: fixed;
   background-color: #00000000;
@@ -682,11 +743,18 @@ body{
   cursor: pointer;
   font-size: 50px;
   font-weight: 300;
+  opacity: 0.5;
+  padding: 0px;
+}
+
+.head:hover{
+  opacity: 1;
+  font-size: 70px;
 }
 
 .head1{
   margin-top: -90px;
-  margin-left: 150px;
+  margin-left: 11%;
   z-index: 1;
   position: fixed;
   background-color: #00000000;
@@ -695,13 +763,17 @@ body{
   cursor: pointer;
   font-size: 50px;
   font-weight: 300;
+  opacity: 0.5;
 }
 
-
+.head1:hover{
+  opacity: 1;
+  font-size: 70px;
+}
 
 .head2{
   margin-top: -90px;
-  margin-left: 150px;
+  margin-left: 11%;
   z-index: 1;
   position: fixed;
   background-color: #00000000;
@@ -710,11 +782,17 @@ body{
   cursor: pointer;
   font-size: 50px;
   font-weight: 300;
+  opacity: 0.5;
+}
+
+.head2:hover{
+  opacity: 1;
+  font-size: 70px;
 }
 
 .head3{
   margin-top: -90px;
-  margin-left: 150px;
+  margin-left: 11%;
   z-index: 1;
   position: fixed;
   background-color: #00000000;
@@ -723,11 +801,15 @@ body{
   cursor: pointer;
   font-size: 50px;
   font-weight: 300;
+  opacity: 0.5;
 }
-
+.head3:hover{
+  opacity: 1;
+  font-size: 70px;
+}
 .head4{
   margin-top: -90px;
-  margin-left: 150px;
+  margin-left: 11%;
   z-index: 1;
   position: fixed;
   background-color: #00000000;
@@ -736,6 +818,11 @@ body{
   cursor: pointer;
   font-size: 50px;
   font-weight: 300;
+  opacity: 0.5;
+}
+.head4:hover{
+  opacity: 1;
+  font-size: 70px;
 }
 .myDIVstretch{
   font-size: 15px;
@@ -751,6 +838,7 @@ body{
   position: absolute;
   margin-left: 160px;
 }
+
 
 .sub2{
   font-size: 15px;
@@ -792,11 +880,14 @@ body{
   font-weight: 300;
   z-index: 1;
   position: absolute;
-  margin-top: 70px;
+  margin-top: 5%;
   margin-left: 160px;
   cursor: pointer;
 }
 
+.sub55:hover{
+  color: #f1f91e;
+}
 
 
 .is{
@@ -874,6 +965,12 @@ body{
   margin-left: 220px;
 }
 
+.test2:hover{
+  color: #f1f91e;
+  font-size: 20px;
+
+}
+
 #test1 {
   width: 400px;
   height: 400px;
@@ -905,6 +1002,11 @@ body{
   margin-left: 220px;
 }
 
+.test3:hover{
+  color: #f1f91e;
+  font-size: 20px;
+
+}
 
 
 #test4 {
@@ -993,7 +1095,7 @@ body{
   scale: 20%;
   margin-top: -2800px;
   position: absolute;
-  margin-left: -50px;
+  margin-left: -2%;
   opacity: 1;
 }
 
@@ -1009,11 +1111,17 @@ body{
   margin-left: 220px;
 }
 
+.relbutton:hover{
+  color: #f1f91e;
+  font-size: 20px;
+
+}
+
 .myDIVrel3{
   scale: 20%;
   margin-top: -2800px;
   position: absolute;
-  margin-left: -160px;
+  margin-left: -8%;
   opacity: 1;
 }
 
@@ -1028,12 +1136,17 @@ body{
   margin-top: -2160px;
   margin-left: 326px;
 }
+.relbutton3:hover{
+  color: #f1f91e;
+  font-size: 20px;
+
+}
 
 .myDIVrel4{
   scale: 20%;
   margin-top: -2800px;
   position: absolute;
-  margin-left: -290px;
+  margin-left: -19%;
   opacity: 1;
 }
 
@@ -1048,11 +1161,19 @@ body{
   margin-top: -2160px;
   margin-left: 272px;
 }
+
+
+.relbutton4:hover{
+  color: #f1f91e;
+  font-size: 20px;
+
+}
+
 .myDIVrel1{
   scale: 20%;
   margin-top: -2800px;
   position: absolute;
-  margin-left: 70px;
+  margin-left: 5%;
   opacity: 1;
   
 }
@@ -1067,13 +1188,18 @@ body{
   margin-top: -2160px;
   margin-left: 295px;
 }
+.relbutton1:hover{
+  color: #f1f91e;
+  font-size: 20px;
+
+}
 
 
 .myDIVrel2{
   scale: 30%;
   margin-top: -2540px;
   position: absolute;
-  margin-left: 50px;
+  margin-left: 7%;
   opacity: 0.5;
   
 }
@@ -1088,6 +1214,11 @@ body{
   margin-top: -1590px;
   margin-left: 285px;
 }
+.relbutton2:hover{
+  color: #f1f91e;
+  font-size: 20px;
+
+}
 
 .photoR{
     color: #fff;
@@ -1097,9 +1228,20 @@ body{
   position: absolute;
   margin-top: -123px;
   margin-left: 25px;
+  opacity: 0.5;
 }
 
+.photoR:hover{
+  opacity: 1;
+}
+.relbutton6:hover{
+  
+    color: #f1f91e;
+    font-size: 20px;
 
+
+  
+}
 .demomove{
   color: #fff;
   cursor: pointer;
@@ -1118,7 +1260,7 @@ body{
   scale: 30%;
   margin-top: -1965px;
   position: absolute;
-  margin-left: 50px;
+  margin-left: 7%;
   opacity: 1;
   
 }
@@ -1151,7 +1293,7 @@ body{
 .uno{
   scale: 35%;
   margin-top: -515px;
-  margin-left: -400px;
+  margin-left: -27%;
   position: absolute;
   z-index: 0;
 }
@@ -1159,14 +1301,14 @@ body{
 .uno1{
   scale: 35%;
   margin-top: -515px;
-  margin-left: 50px;
+  margin-left: 3%;
   position: absolute;
 }
 
 .uno2{
   scale: 35%;
   margin-top: -515px;
-  margin-left: 520px;
+  margin-left: 34%;
   position: absolute;
 }
 
@@ -1193,7 +1335,7 @@ body{
   font-size: 120px;
   font-weight: 300;
   position: absolute;
-  margin-left: 40px;
+  margin-left: 5%;
 }
 
 
@@ -1268,6 +1410,9 @@ margin-left: 350px;
   top: 210px;
   margin-left: 40px;
 }
+.hh11111:hover{
+  opacity: 1;
+}
 
 @keyframes hh111111 {
   from {top: 210px; opacity: 1;}
@@ -1282,6 +1427,7 @@ margin-left: 350px;
   margin-top: -220px;
   margin-left: 549px;
   cursor: pointer;
+  opacity: 0.5;
 }
 
 .hb{
@@ -1292,9 +1438,12 @@ margin-left: 350px;
   margin-top: -225px;
   margin-left: 40px;
   cursor: pointer;
+  opacity: 0.5;
 }
 
-
+.hb:hover{
+  opacity: 1;
+}
 
 
 * {
@@ -1304,9 +1453,9 @@ margin-left: 350px;
 
 
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
   padding: 25px;
   margin-left: 6px;
@@ -1315,9 +1464,8 @@ margin-left: 350px;
   color: #fff;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
   padding: 25px;
@@ -1335,7 +1483,6 @@ margin-left: 350px;
   color: #fff;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -1344,7 +1491,6 @@ margin-left: 350px;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
@@ -1360,10 +1506,16 @@ margin-left: 350px;
 }
 
 .twotwo:hover{
-opacity: 1;
+  opacity: 1;
+ 
 }
 
-
+.two{
+  color: #fff;
+}
+.two:hover{
+  color: #f1f91e;
+}
 .threethree{
   
   opacity: 0.5;
@@ -1624,3 +1776,33 @@ opacity: 1;
   position: absolute;
   z-index: -1;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
