@@ -38,7 +38,7 @@ function myFunctionphoto() {
   }
 
   function myFunction4() {
-    document.getElementById("demo4").innerHTML = "Kepp in mind that since the cover is open, the lighting in the room will show up in the scan. So working in a dark room will create a black background around your object.";
+    document.getElementById("demo4").innerHTML = "Keep in mind that since the cover is open, the lighting in the room will show up in the scan. So working in a dark room will create a black background around your object.";
   }
 
   function myFunction5() {
