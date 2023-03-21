@@ -188,22 +188,22 @@ body{
 
 
   .staticgif{
-    margin-top: -143px;
-    position:absolute;
+    top:50px;
+    position: absolute;
     opacity: 0;
-  }
-
-  .movegif{
-    margin-top: -145px;
-    
-  }
-
-  .gif {
-    scale: 185%;
-    margin-top: -170px;
     margin-left: 380px;
+
+  }
+
+
+  .movegif {
+    scale: 185%;
+    margin-left: 16%;
     transition: 1s;
     opacity: 1;
+    margin-top: -400px;
+    position: absolute;
+
   }
 
   .j{
@@ -230,6 +230,7 @@ body{
   color: #000000;
   position: absolute;
   margin-left: 30px;
+  margin-top: -250px;
   padding: 5px;
   cursor: pointer;
   font-size: 15px;
@@ -281,7 +282,7 @@ font-size: 20px;
   .paragraphtwothree{
     color: white;
     font-size: 50px;
-    margin-top: -375px;
+    margin-top: -400px;
     margin-left: 80px;
     position: absolute;
     font-weight: 300;
@@ -295,7 +296,7 @@ font-size: 20px;
     font-weight: 300;
     margin-left: 54%;
     margin-right: 240px;
-    margin-top: 0px;
+    margin-top: -150px;
   }
 
   .paragraphthreeone{
@@ -334,7 +335,7 @@ font-size: 20px;
     font-weight: 300;
     margin-left: 10%;
     margin-right: 30%;
-    margin-top: -3%;
+    margin-top: -0.5%;
     opacity: 0.5;
     cursor: pointer;
     background-color: #00000000;
@@ -546,6 +547,7 @@ font-size: 20px;
 .paragraphone{
   opacity: 1;
   font-size: 12;
+  margin-top: -500px;
   
 }
 
@@ -598,6 +600,7 @@ font-size: 20px;
     margin-top: -50px;
     opacity: 0.5;
     padding: 0px;
+    border-color: #000000;
 }
 
 .gg:hover{
@@ -1783,26 +1786,155 @@ margin-left: 350px;
 
 
 
+.link1{
+  color: #ffffff;
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin-left: 54%;
+  margin-top: 75px;
+}
+
+.link1:hover{
+  cursor: pointer;
+  color: #f1f91e;
+}
+
+
+
+.link2{
+  color: #ffffff;
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin-left: 54%;
+  margin-top: 90px;
+}
+
+.link2:hover{
+  cursor: pointer;
+  color: #f1f91e;
+}
+
+
+
+.link3{
+  color: #ffffff;
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin-left: 54%;
+  margin-top: 140px;
+}
+
+.link3:hover{
+  cursor: pointer;
+  color: #f1f91e;
+}
+
+
+
+
+.link4{
+  color: #ffffff;
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin-left: 15%;
+  margin-top: 60px;
+}
+
+.link4:hover{
+  cursor: pointer;
+  color: #f1f91e;
+}
 
 
 
 
 
+.link5{
+  color: #ffffff;
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin-left: 15%;
+  margin-top: 180px;
+}
+
+.link5:hover{
+  cursor: pointer;
+  color: #f1f91e;
+}
 
 
 
 
+.link6{
+  color: #ffffff;
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin-left: 15%;
+  margin-top: 110px;
+}
+
+.link6:hover{
+  cursor: pointer;
+  color: #f1f91e;
+}
+
+.link7{
+  color: #ffffff;
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin-left: 54%;
+  margin-top: 50px;
+}
+
+.link7:hover{
+  cursor: pointer;
+  color: #f1f91e;
+}
 
 
 
+.bb{
+  margin-top: -200px;
+position: absolute;
+  margin-left: 8%;
+}
+
+.oioi{
+  margin-top: -1230px;
+  margin-left: 27%;
+  scale: 70%;
+  position: absolute;
+  z-index: 0;
+}
+
+.link8{
+  color: #ffffff;
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin-left: 5%;
+  margin-top: -800px;
+}
 
 
 
+.link9{
+  color: #ffffff;
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 1;
+  margin-left: 5%;
+  margin-top: -770px;
+}
 
-
-
-
-
-
-
-
+.link9:hover{
+  cursor: pointer;
+  color: #f1f91e;
+}
