@@ -24,12 +24,12 @@ function myFunctionphoto() {
   }
 
   function myFunction1() {
-    document.getElementById("demo1").innerHTML = "Get started with these items: a flatbed scanner, a computer (or device that connects to the scanner and saves its images), and an object to scan. It can be done using any standard digital scanner that is connected to a device of your choosing such as a laptop, tablet, phone. For more information on what a scanner is and how it works, visit:<br><br><br> If you are looking to get a scanner, here is a list of the best new scanners: <br><br><br>If those are too expensive, remember websites like eBay, Kijiji, or Craigslist may offer used scanners for a cheaper price.  For standard use, these scanners should suffice, but they may have reduced image quality."
+    document.getElementById("demo1").innerHTML = "Get started with these items: a flatbed scanner, a computer (or device that connects to the scanner and saves its images), and an object to scan. It can be done using any standard digital scanner that is connected to a device of your choosing such as a laptop, tablet, phone. For more information on what a scanner is and how it works visit:<br><br><br> If you are looking to get a scanner here is a list of the best new scanners: <br><br><br>If those are too expensive, remember websites like eBay, Kijiji, or Craigslist may offer used scanners for a cheaper price.  For standard use, these scanners should suffice, but they may have reduced image quality."
 
   }
 
   function myFunction2() {
-    document.getElementById("demo2").innerHTML = "Once your scanner is all set up, pick an object to scan. The object should fit comfortably onto the glass of the flatbed scanner. More about the different parts of a scanner: <br><br><br> Begin by simply picking an object and placing it on the scanner. To get started, you could pick your favourite toy, figurine, fruit, or even flower. For more inspiration on choosing objects, read about still-life photography, which also uses objects to capture an image: <br><br><br>  Start the scan to capture a photo of your object. Follow your scanner instrucitons on how to capture a scan, it will vary between make and model.";
+    document.getElementById("demo2").innerHTML = "Once your scanner is all set up, pick an object to scan. The object should fit comfortably onto the glass of the flatbed scanner. More about the different parts of a scanner: <br><br><br> Begin by simply picking an object and placing it on the scanner. To get started, you could pick your favourite toy, figurine, fruit, or even flower. For more inspiration on choosing objects, read about still-life photography, which also uses objects to capture an image: <br><br><br>  Start the scan to capture a photo of your object. Follow your scanners' instructions on how to capture a scan, it will vary between make and model.";
   }
 
   function myFunction3() {
@@ -37,7 +37,7 @@ function myFunctionphoto() {
   }
 
   function myFunction4() {
-    document.getElementById("demo4").innerHTML = " The surface of the three-demential object that directly touches the scanner will remain clear and detailed, while the further away something is the blurrier it becomes. This is because the scanner doesn't have a large depth of field, so in your scans you will see a soft gradient form detailed to blur. To learn more about the depth of field that scanners have and how they work visit: ";
+    document.getElementById("demo4").innerHTML = " The surface of the three-dimensional object that directly touches the scanner will remain clear and detailed, while the further away something is the blurrier it becomes. This is because the scanner doesn't have a large depth of field, so in your scans you will see a soft gradient form detailed to blur. To learn more about the depth of field that scanners have and how they work visit: ";
   }
 
   function myFunction5() {
